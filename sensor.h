@@ -11,6 +11,9 @@
 #ifndef SENSOR_H_
 #define SENSOR_H_
 
+#define LEFTDISTANCE 0x230
+#define RIGHTDISTANCE 0x100
+
 void initializeADC10();
 
 unsigned int getLeftSensorVoltage();
