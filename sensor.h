@@ -11,8 +11,8 @@
 #ifndef SENSOR_H_
 #define SENSOR_H_
 
-#define LEFTDISTANCE 0x230
-#define RIGHTDISTANCE 0x100
+#define LEFTDISTANCE 0x230			//Larger numbers relate to closer distances.
+#define RIGHTDISTANCE 0x100			//Smaller numbers relate to further distances.
 
 void initializeADC10();
 
